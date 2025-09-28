@@ -1,6 +1,9 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f8f9fa;
+  scroll-behavior: smooth;
 }
 
 .hero {
@@ -9,8 +12,19 @@ body {
   min-height: 60vh;
 }
 
-.card img {
-  max-height: 200px;
+.navbar-brand img {
+  height: 30px;
+}
+
+.product-card {
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.carousel-item img {
   object-fit: cover;
 }
 
