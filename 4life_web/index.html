@@ -4,10 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>4Life - Distribuidor Independiente</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Descubre los productos 4Life Transfer Factor y fortalece tu salud con respaldo científico. Distribuidor independiente autorizado en Colombia.">
+  <meta name="keywords" content="4Life, Transfer Factor, suplementos, salud, bienestar, inmunidad, Colombia">
+  <meta name="author" content="Distribuidor Independiente 4Life">
+  <link rel="icon" href="img/4life-logo.png" type="image/png">
+
+  <!-- Estilos -->
+  <link rel="preload" href="css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/styles.css"></noscript>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
@@ -17,7 +27,7 @@
       <img src="img/4life-logo.png" alt="4Life" height="30" class="me-2">
       Distribuidor Independiente
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Abrir menú">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -36,10 +46,10 @@
   <div class="container">
     <h1 class="animate__animated animate__fadeInDown">Activa tu día, fortalece tus defensas</h1>
     <p class="lead animate__animated animate__fadeInUp">Descubre la ciencia de 4Life y cuida tu bienestar con productos de calidad respaldados científicamente.</p>
-    <a href="https://4l.shop/VJIY5" target="_blank" class="btn btn-primary btn-lg me-3 animate__animated animate__fadeInLeft">
+    <a href="https://4l.shop/VJIY5" target="_blank" class="btn btn-primary btn-lg me-3 animate__animated animate__fadeInLeft" aria-label="Comprar ahora">
       <i class="fa-solid fa-cart-shopping"></i> Comprar ahora
     </a>
-    <a href="https://w.app/jkbspo" target="_blank" class="btn btn-outline-light btn-lg animate__animated animate__fadeInRight">
+    <a href="https://w.app/jkbspo" target="_blank" class="btn btn-outline-light btn-lg animate__animated animate__fadeInRight" aria-label="Escríbenos por WhatsApp">
       <i class="fa-brands fa-whatsapp"></i> Escríbenos
     </a>
   </div>
@@ -47,7 +57,7 @@
 
 <section id="productos" class="py-5">
   <div class="container">
-    <h2 class="text-center mb-5">Productos 4Life</h2>
+    <h2 class="text-center mb-5 section-title">Productos 4Life</h2>
     <div class="row g-4">
 
       <!-- 1 -->
@@ -277,29 +287,23 @@
 
 <section id="testimonios" class="py-5 bg-light">
   <div class="container">
-    <h2 class="text-center mb-5">Testimonios</h2>
-    <div id="testimoniosCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
+    <h2 class="text-center mb-5 section-title">Testimonios</h2>
+  <div id="testimoniosCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
         <div class="carousel-item active">
-          <div class="text-center">
-            <img src="img/testimonio1.jpg" class="rounded-circle mb-3" alt="Testimonio" width="100">
-            <h5>María R.</h5>
-            <p>“Desde que uso Transfer Factor Plus me siento con más energía y mis defensas están más fuertes.”</p>
-          </div>
+          <img src="img/testimonio1.jpg" class="rounded-circle mb-3" alt="Testimonio" width="100">
+          <h5>María R.</h5>
+          <p>“Desde que uso Transfer Factor Plus me siento con más energía y mis defensas están más fuertes.”</p>
         </div>
         <div class="carousel-item">
-          <div class="text-center">
-            <img src="img/testimonio2.jpg" class="rounded-circle mb-3" alt="Testimonio" width="100">
-            <h5>Carlos R.</h5>
-            <p>“RioVida Stix es mi favorito, refrescante y fácil de llevar a todas partes.”</p>
-          </div>
+          <img src="img/testimonio2.jpg" class="rounded-circle mb-3" alt="Testimonio" width="100">
+          <h5>Carlos R.</h5>
+          <p>“RioVida Stix es mi favorito, refrescante y fácil de llevar a todas partes.”</p>
         </div>
         <div class="carousel-item">
-          <div class="text-center">
-            <img src="img/testimonio3.jpg" class="rounded-circle mb-3" alt="Testimonio" width="100">
-            <h5>Laura M.</h5>
-            <p>“Mi familia y yo confiamos en 4Life para nuestro bienestar diario.”</p>
-          </div>
+          <img src="img/testimonio3.jpg" class="rounded-circle mb-3" alt="Testimonio" width="100">
+          <h5>Laura M.</h5>
+          <p>“Mi familia y yo confiamos en 4Life para nuestro bienestar diario.”p>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#testimoniosCarousel" data-bs-slide="prev">
@@ -316,7 +320,7 @@
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6">
-        <h2>¿Quiénes somos?</h2>
+        <h2 class="section-title">¿Quiénes somos?</h2>
         <p>
           En 4Life nos esforzamos por elaborar productos que superan los más altos estándares de calidad en la industria.
           Como distribuidor independiente, te ofrezco acceso a suplementos que puedes incorporar con total confianza en tu día a día.
@@ -334,26 +338,27 @@
 
 <section id="contacto" class="py-5 bg-light">
   <div class="container">
-    <h2 class="text-center mb-4">Contáctanos</h2>
+    <h2 class="text-center mb-4 section-title">Contáctanos</h2>
     <div class="row justify-content-center">
       <div class="col-md-6">
         <form action="https://formsubmit.co/tucorreo@example.com" method="POST">
+          <input type="hidden" name="_captcha" value="false">
           <div class="mb-3">
             <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" name="nombre" class="form-control" required>
+            <input type="text" name="nombre" id="nombre" class="form-control" required>
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Correo electrónico</label>
-            <input type="email" name="email" class="form-control" required>
+            <input type="email" name="email" id="email" class="form-control" required>
           </div>
           <div class="mb-3">
             <label for="mensaje" class="form-label">Mensaje</label>
-            <textarea name="mensaje" class="form-control" rows="4" required></textarea>
+            <textarea name="mensaje" id="mensaje" class="form-control" rows="4" required></textarea>
           </div>
           <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
         </form>
         <div class="text-center mt-3">
-          <a href="https://w.app/jkbspo" target="_blank" class="btn btn-success">
+          <a href="https://w.app/jkbspo" target="_blank" class="btn btn-success" aria-label="Escríbenos por WhatsApp">
             <i class="fa-brands fa-whatsapp"></i> Escríbenos por WhatsApp
           </a>
         </div>
@@ -369,7 +374,18 @@
   </div>
 </footer>
 
+<!-- BOTÓN WHATSAPP -->
+<a href="https://w.app/jkbspo" target="_blank" class="whatsapp-float" aria-label="Chatea con nosotros por WhatsApp">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<!-- BOTÓN VOLVER ARRIBA -->
+<button id="btnTop" class="btn btn-primary rounded-circle" aria-label="Volver arriba">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<!-- JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+<script src="js/script.js" defer></script>
 </body>
 </html>
